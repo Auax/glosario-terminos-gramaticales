@@ -1,113 +1,37 @@
-import Image from 'next/image'
+"use client";
+import {ProductTypes} from "@/app/ProductTypes";
+import ProductsRenderer from "@/app/components/ProductsRenderer";
+import Filter from "@/app/components/Filter/Filter";
+import {useState} from "react";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+export default function Index() {
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+    const [priceRange, setPriceRange] = useState({min: 10, max: 200});
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+    const products = [
+        {
+            name: "Maison Margiela Pixelated Text T-shirt",
+            url: "https://www.pandabuy.com/product?ra=1&url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D714167582960&inviteCode=ZGCH25AQW",
+            priceUSD: 29,
+            priceCNY: 189,
+            imageURL: "https://i.imgur.com/ljAWzDW.png",
+            type: ProductTypes.TSHIRT,
+        },
+        {
+            name: "Air Jordan 1 Dark Mocha",
+            url: "https://www.pandabuy.com/product?ra=142&url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D5387901129%26spider_token%3D4572&utm_source=url&utm_medium=pdb&utm_campaign=normal&inviteCode=8S7BDFLNE",
+            priceUSD: 54.64,
+            priceCNY: 360,
+            imageURL: "https://lh3.googleusercontent.com/u/0/docs/AOD9vFoiAIj5G3d6GPGNGfhqJJFqjJcIL-DbqNCJVCN1ptG66aoGWrB2e9HBhhRydoIvOtzJPffyL300SiQwlCOZpVg6nevn9sqpLDWtvvROS9bcPsxuIRlW-ns7td8EytQ_QpZdceVA-JHQtRZt5saMkXMAe1hrYHWTKvwzdnwE_6b5KBIGWRt1sYX36Akb7bNr-egmvXyuD18hYGqypUWwSzbe-i8vwAb-6pYqUUwVTgntQqnFDiifXwnb_gCXpXKG8t3b1KH87oFhA_guOqxaWkhYGnWmNF-Vq1QBXsWERn-ZtEwibv9Ayf6DhCFJomVL0h6LsT3-ePAOv549Gx8fZekLsbBl8O-mwnfdEYszl-J3XfRHgdKud4TmprdmohBlvNn7FDAn7hhYJs4BctMG6FE75nuqC13EA587DUP3ZbjGTAc3ZQOiTzm2OpJNr8dmH4a2VBzDYtZJPDNov1c0xot_mY2EFpgD3t-pp4zEn_g2npcFG9A6lda-9rpnzwuSgZ0SX1evBGlZnU7kIDX8ig31jBJxo6NHjBiOlREs0j15aWjUCYOuVwtomyoGlS7YVc_S9xKN3RrZRz_W4j2bcs7W_tl5uV2iQ9H1qG_Ifw3_L_nnIBx0Q-qk0hthK0hTOh22e-hK-iwpi-rdaLucxveaFAHMxRsCc-U6GGgXR9ZAtLi6KvVS_OQJe476a_ByII3heNMUDKtJS-BIjxUrfEIj1Hb7bCXwLG98Im-XC98Mtsaz-F05r3p6K2NJrQBrQ3mtHI4b6hHe1n4nLV5IDIxy7cX2Pdvgoptn34aOIJOppoYwOjtkUShBLgrI7F6hrqXpRwB2fKSMyTsgoTvmgn-wJHCaPiGK2fjEBQy7rAkPCrASk0JBDe-xvwdJYRpMIPKAE5YX-lmZl-ok3VU2Rb0XKWSKSayRKOS7lIWLmUBA4_Jd7nR_nJGIagX4wOz7GgVF8A2cmZ9Sh3sUA3lf9k5hPbGmoEpmQxc0HkZQ=w174-h109",
+            type: ProductTypes.SHOE,
+        },
+    ]
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    return (
+        <main className="container mx-auto mt-10">
+            <h1 className="title">Products</h1>
+            <Filter/>
+            <ProductsRenderer products={products}/>
+        </main>
+    )
 }

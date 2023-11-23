@@ -1,0 +1,40 @@
+"use client";
+
+import React from 'react';
+import ListItem from "./ListItem/ListItem";
+import {filterItems} from "./ProductFilter/FilterItems";
+import {useProductFilter} from "./ProductFilter/FilterContext";
+
+const ProductsRenderer = (props) => {
+
+    // Note: indexRange is not currently used in FilterProducts.js,
+    // so any value set for indexRange won't cause any effect
+    // I'm leaving the variable here so if I need it for something, just uncomment the lines in FilterProducts.js.
+
+    const {
+        indexRange, setIndexRange,
+        itemType, setItemType,
+        searchString, setSearchString
+    } = useProductFilter();
+
+    const filteredProducts = filterItems(props.data, indexRange, itemType, searchString);
+
+
+    return (
+        <div className="grid grid-cols-4 justify-between gap-8 mt-8">
+            {filteredProducts.map((item, index) => (
+                <ListItem
+                    key={index}
+                    title={item.name}
+                    itemIndex={index + 1}
+                    // imageURL={item.imageURL}
+                    type={item.type}
+                    description={item.description}
+                />
+            ))}
+        </div>
+    );
+};
+
+
+export default ProductsRenderer;

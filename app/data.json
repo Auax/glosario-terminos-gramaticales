@@ -1,0 +1,222 @@
+[
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjetivo",
+    "description": "Palabra que describe sustantivos"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjetivo adverbial",
+    "description": "(Adverbio) Corrió **rápidamente**"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjetivo calificativo",
+    "description": "Describen propiedades del sustantivo. Función: añadir información adicional del nombre, cualidades.\n\nLibro **interesante**\nCoche **azul**"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjetivo determinativo",
+    "description": "(Determinante) especificar un sustantivo más precisamente, se colocan antes del nombre.\n\nMi **libro** favorito."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjetivo relacional",
+    "description": "Crean un vínculo o relación del nombre con un grupo de palabras. No modifician el nombre en número o grado, pero lo relacionan con un tema en concreto.\n\nMúsica **brasileña**"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adjunto",
+    "description": "Complemento adjunto, es prescindible.\n\nJuan habla **claramente**"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio adjetival",
+    "description": "Adverbio que hace como un adjetivo, normalmente acaban en '-mente'.\n\nUn nombre **amablemente** sonrió"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de afirmación",
+    "description": "reforzar o suavizar una declaración: ciertamente, efectivamente, obviamente, etc."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de negación",
+    "description": "No, en absoluto, nunca, etc."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de cantidad",
+    "description": "Responden a la pregunta:'¿cuánto?'  \nAlgo, bastante, mucho, nada, etc."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de foco",
+    "description": "Resaltar la palabra o sintagma sobre el cual se incide.\n\nHe cogido **solo** las manzanas.\n\n*'Solo' focaliza 'las manzanas', hace que destaque sobre el resto.*"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de duda",
+    "description": "Denotan incertidumbre o inseguridad.\n\n**A lo mejor**, **posiblemente**, **puede**, **serguramente**"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de grado",
+    "description": "Modifica/intensifica el significado de un adjetivo / verbo.\n\nEstoy **muy** contento."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de lugar",
+    "description": "Aquí, allí, detrás, encima..."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de manera",
+    "description": "Cómo se realiza la acción: rápidamente, lentamente, cuidadosamente..."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio de tiempo",
+    "description": "¿cuándo?: ahora, ayer, mañana, pronto, tarde, antes..."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio demostrativo",
+    "description": "engloban los adverbios de lugar, tiempo, grado."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio exclamativo",
+    "description": "Qué, cómo, cuánto.\n\n¡**Qué** calor que hace!"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio interrogativo",
+    "description": "Dónde, quién, cuántos, cómo.\n\n¿**Dónde** está?"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Adverbio pronominal",
+    "description": "= pronombre"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Afijo",
+    "description": "Modifica el significado o las propiedades gramaticales de la raíz:  \nSufijo, Afijo, Infijo"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Afijo derivativo",
+    "description": "Se agrega a una raíz para crear una palabra nueva, modifican la categoría gramatical o el significado. Permita formar palabras nuevas derivadas a partir de la raíz.  \n- Prefijos: ***des**hacer*  \n-Sufijo: *cocin**ero***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Afijo flexivo",
+    "description": "una o mas letras que se añaden a la raíz para crear variantes que indican género, número, persona, tiempo y modo. \n\n-*Niñ**o*** / -*Niñ**a***\n\n Indica género en este caso."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Agente (papel temático)",
+    "description": "Designa la persona, animal o cosa que realiza la acción del verbo.\n\n*María despertó a los niños* → *Los niños fueron despertados por María*"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Agramaticalidad",
+    "description": "No sigue las normas de la gramática."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Alomorfo",
+    "description": "Cada una de las diferenetes formas que puede tener un morfema\n\n-***In**visible*→***Im**posible*→***I**legal*"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Ambiguedad",
+    "description": "Puede entenderse de distintas formas.\n\n*Eligió un coche rápido*\n\nPuede entenderse como que eligió rápidamente un coche o que eligió un coche que va a alta velocidad."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Antecedente",
+    "description": "cosa o persona sobre la que se habla en la oración de relativo o también es el sustantivo / SN al cual hace referéncia un pronombre después.\n\n***El libro** que me dejaste*\n\n***que*** hace referencia al antecedente ***el libro***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Antonímia",
+    "description": "Palabras contrarias: ***claro*** / ***oscuro***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Aposición",
+    "description": "Poner un elemento junto a otro elemento para aclarar su significado.*El loro **Juanito***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Argumento",
+    "description": "complemento necesario para el verbo"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Artículo",
+    "description": "determinante artículo.\n\n***El, la...***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Aspecto gramatical",
+    "description": "expresa desarrollo interno de la acción verbal, informando sobre la manera o la exetensión temporal.\n\n*Pasado **imperfecto***, *pasado **perfecto***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Atributo",
+    "description": "indica cualidades del sujeto. Solo verbos copulativos.\n\n*Luís es **mecanico***"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Base (de derivación)",
+    "description": "raíz (dónde añadimos morfemas)"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Caso",
+    "description": ""
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "A",
+    "description": ""
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "A",
+    "description": ""
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "A",
+    "description": ""
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "A",
+    "description": ""
+  },
+  {
+    "name": "Pronombre",
+    "description": "Example",
+    "type": "Sustantivos"
+  },
+  {
+    "name": "Pronombre",
+    "description": "Example",
+    "type": "Sustantivos"
+  },
+  {
+    "name": "Pronombre",
+    "description": "Example",
+    "type": "Sustantivos"
+  },
+  {
+    "name": "Pronombre",
+    "description": "Example",
+    "type": "Sustantivos"
+  }
+]

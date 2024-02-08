@@ -12,32 +12,32 @@
   {
     "type": "Términos Gramaticales",
     "name": "Adjetivo calificativo",
-    "description": "Describen propiedades del sustantivo. Función: añadir información adicional del nombre, cualidades.\n\nLibro **interesante**\nCoche **azul**"
+    "description": "Describen propiedades del sustantivo. Función: añadir información adicional del nombre, cualidades.\n\n > Libro **interesante**\n\n > Coche **azul**"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adjetivo determinativo",
-    "description": "(Determinante) especificar un sustantivo más precisamente, se colocan antes del nombre.\n\nMi **libro** favorito."
+    "description": "(Determinante) especificar un sustantivo más precisamente, se colocan antes del nombre.\n\n > Mi **libro** favorito."
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adjetivo relacional",
-    "description": "Crean un vínculo o relación del nombre con un grupo de palabras. No modifician el nombre en número o grado, pero lo relacionan con un tema en concreto.\n\nMúsica **brasileña**"
+    "description": "Crean un vínculo o relación del nombre con un grupo de palabras. No modifician el nombre en número o grado, pero lo relacionan con un tema en concreto.\n\n > Música **brasileña**"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adjunto",
-    "description": "Complemento adjunto, es prescindible.\n\nJuan habla **claramente**"
+    "description": "Complemento adjunto, es prescindible.\n\n > Juan habla **claramente**"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio adjetival",
-    "description": "Adverbio que hace como un adjetivo, normalmente acaban en '-mente'.\n\nUn nombre **amablemente** sonrió"
+    "description": "Adverbio que hace como un adjetivo, normalmente acaban en '-mente'.\n\n > Un nombre **amablemente** sonrió"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio de afirmación",
-    "description": "reforzar o suavizar una declaración: ciertamente, efectivamente, obviamente, etc."
+    "description": "Reforzar o suavizar una declaración: ciertamente, efectivamente, obviamente, etc."
   },
   {
     "type": "Términos Gramaticales",
@@ -52,7 +52,7 @@
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio de foco",
-    "description": "Resaltar la palabra o sintagma sobre el cual se incide.\n\nHe cogido **solo** las manzanas.\n\n*'Solo' focaliza 'las manzanas', hace que destaque sobre el resto.*"
+    "description": "Resaltar la palabra o sintagma sobre el cual se incide.\n\n > He cogido **solo** las manzanas.\n\n*'Solo' focaliza 'las manzanas', hace que destaque sobre el resto.*"
   },
   {
     "type": "Términos Gramaticales",
@@ -62,7 +62,7 @@
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio de grado",
-    "description": "Modifica/intensifica el significado de un adjetivo / verbo.\n\nEstoy **muy** contento."
+    "description": "Modifica/intensifica el significado de un adjetivo / verbo.\n\n > Estoy **muy** contento."
   },
   {
     "type": "Términos Gramaticales",
@@ -77,22 +77,22 @@
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio de tiempo",
-    "description": "¿cuándo?: ahora, ayer, mañana, pronto, tarde, antes..."
+    "description": "¿Cuándo?: ahora, ayer, mañana, pronto, tarde, antes..."
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio demostrativo",
-    "description": "engloban los adverbios de lugar, tiempo, grado."
+    "description": "Engloban los adverbios de lugar, tiempo, grado."
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio exclamativo",
-    "description": "Qué, cómo, cuánto.\n\n¡**Qué** calor que hace!"
+    "description": "Qué, cómo, cuánto.\n\n > ¡**Qué** calor que hace!"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Adverbio interrogativo",
-    "description": "Dónde, quién, cuántos, cómo.\n\n¿**Dónde** está?"
+    "description": "Dónde, quién, cuántos, cómo.\n\n > ¿**Dónde** está?"
   },
   {
     "type": "Términos Gramaticales",
@@ -112,12 +112,12 @@
   {
     "type": "Términos Gramaticales",
     "name": "Afijo flexivo",
-    "description": "una o mas letras que se añaden a la raíz para crear variantes que indican género, número, persona, tiempo y modo. \n\n-*Niñ**o*** / -*Niñ**a***\n\n Indica género en este caso."
+    "description": "Una o mas letras que se añaden a la raíz para crear variantes que indican género, número, persona, tiempo y modo. \n\n-*Niñ**o*** / -*Niñ**a***\n\n Indica género en este caso."
   },
   {
     "type": "Términos Gramaticales",
     "name": "Agente (papel temático)",
-    "description": "Designa la persona, animal o cosa que realiza la acción del verbo.\n\n*María despertó a los niños* → *Los niños fueron despertados por María*"
+    "description": "Designa la persona, animal o cosa que realiza la acción del verbo.\n\n > *María despertó a los niños* **→** *Los niños fueron despertados por María*"
   },
   {
     "type": "Términos Gramaticales",
@@ -132,12 +132,12 @@
   {
     "type": "Términos Gramaticales",
     "name": "Ambiguedad",
-    "description": "Puede entenderse de distintas formas.\n\n*Eligió un coche rápido*\n\nPuede entenderse como que eligió rápidamente un coche o que eligió un coche que va a alta velocidad."
+    "description": "Puede entenderse de distintas formas.\n\n > *Eligió un coche rápido*\n\nPuede entenderse como que eligió rápidamente un coche o que eligió un coche que va a alta velocidad."
   },
   {
     "type": "Términos Gramaticales",
     "name": "Antecedente",
-    "description": "cosa o persona sobre la que se habla en la oración de relativo o también es el sustantivo / SN al cual hace referéncia un pronombre después.\n\n***El libro** que me dejaste*\n\n***que*** hace referencia al antecedente ***el libro***"
+    "description": "Cosa o persona sobre la que se habla en la oración de relativo o también es el sustantivo / SN al cual hace referéncia un pronombre después.\n\n > ***El libro** que me dejaste*\n\n*que* hace referencia al antecedente ***el libro***"
   },
   {
     "type": "Términos Gramaticales",
@@ -152,71 +152,221 @@
   {
     "type": "Términos Gramaticales",
     "name": "Argumento",
-    "description": "complemento necesario para el verbo"
+    "description": "Complemento necesario para el verbo"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Artículo",
-    "description": "determinante artículo.\n\n***El, la...***"
+    "description": "Determinante artículo.\n\n***El, la...***"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Aspecto gramatical",
-    "description": "expresa desarrollo interno de la acción verbal, informando sobre la manera o la exetensión temporal.\n\n*Pasado **imperfecto***, *pasado **perfecto***"
+    "description": "Expresa desarrollo interno de la acción verbal, informando sobre la manera o la exetensión temporal.\n\n*Pasado **imperfecto***, *pasado **perfecto***"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Atributo",
-    "description": "indica cualidades del sujeto. Solo verbos copulativos.\n\n*Luís es **mecanico***"
+    "description": "indica cualidades del sujeto. Solo verbos copulativos.\n\n > *Luís es **mecanico***"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Base (de derivación)",
-    "description": "raíz (dónde añadimos morfemas)"
+    "description": "Raíz (dónde añadimos morfemas)"
   },
   {
     "type": "Términos Gramaticales",
     "name": "Caso",
+    "description": "## Caso nominativo\n >*El niño come.* **El niño** recibe caso nominativo\n## Caso Acusativo\n >*El niño come carne.* **Carne** recibe el caso acusativo del verbo comer.\n## Caso Dativo\n > *Él le regaló un cromo a su amigo*. **le** y **su amigo** reciben caso dativo (CI)\n## Caso genitivo (relaciones de pertinencia u origen)\n > *El niño **de** Juan*. **Juan** recibe caso genitivo (SN).\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Catáfora",
+    "description": "Término que anuncia un elemento que aparecerá más tarde.\n\n> Llegaron **dos personas**, **Juan y Carlos**.\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Categoría gramatical",
+    "description": "Nombre, adjetivo, verbo..."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Categoría léxica",
+    "description": "Conjunto de palabras cuyo número en el léxicon del hablante puede seguir aumentando: sustantivos, adjetivos, verbos y adverbios."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Clítico",
+    "description": "Pronombres átonos sin acento propio, deben aparecer justo antes o después del verbo.\nNada puede insertarse entre el verbo y el pronombre clítico.\n\n> **Lo** hice, **te lo** dije.\n> Haciendo**lo**\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento agente",
+    "description": "De las oraciones pasivas. Indica quién ejecuta la acción.\n> La reserva fue hecha **por mi esposa**\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento circunstancial",
+    "description": "Son complementos adjuntos.\n\n - Lugar\n - Tiempo\n - Causa\n - Modo\n - Finalidad\n - Compañía\n - Instrumento\n...\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento de medida argumental",
+    "description": "CD que indica cantidad. Es exigido por el verbo a diferencia del CC. Cantidad.\n**Indica**\n- Precio: costar / valer\n- Extensión: medir\n- Peso: pesar\n- Capacidad y otras magnitudes: durar\n\n   > Cuesta mucho **dinero** (CMed)\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento de régimen preposicional (CRV)",
+    "description": "Acompaña a un verbo que necesita una prep. para completar su significado.\n\n   > Ana se arrepintió **de no haber ido**\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento del adjetivo",
+    "description": "Sintagma preposicional que complementa el significado del adjetivo, especificando información que le falta.\n> El vestido **azul** celeste\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento del adverbio",
+    "description": "Sintagma preposicional que complementa el significado del adverbio, especificando información que le falta.\n> **Mañana sábado** iremos a casa\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento del nombre (CN)",
+    "description": "> El motor **diésel**.\n\"Diésel\" complementa al nombre \"motor\" \n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento directo (CD)",
+    "description": "> Juan vio **un cuadro**. → Juan **lo** vio.\n\n> Nadie vio **a Pedro**. → Nadie **lo** vio."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento indirecto (CI)",
+    "description": "A quien recae indirectamente la acción verbal.\n> Juan envió una carta **a María** →  Juan **le** envió una carta.\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento locativo argumental",
+    "description": "Indica un lugar como el CLL, pero es argumental.\n> Ana reside **en Zaragoza**\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Complemento predicativo",
+    "description": "Acompaña al verbo y expresa una cualidad o estado del sujeto / CD.\n> La mujer corría **desesperada**. Hacer referencia a \"la mujer\"\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Composición",
+    "description": "Formación de nuevas palabras juntando dos o más palabras (lexemas)."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Compuesto",
+    "description": "Unión de palabras simples que forman una unidad ortográfica\n- Agridulce\n- Abrelatas\n- Cortauñas\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Concordancia",
+    "description": "Que el texto se ajuste a las categorías gramaticales (género, número y persona)\n> Los niños juega**n** (concuerda sujeto y predicado)\n\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Condicional compuesto",
+    "description": "Habría + verbo en participio.\n- Habría estudiado\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Condicional simple",
+    "description": "Abriría, haría, iría, etc."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conectores discursivos",
+    "description": "Vincular partes del texto. Conectan oraciones o párrafos.\n- \"Para empezar\"\n- \"Además\"\n- \"Y\"\n- \"Sin embargo\"\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjugación",
+    "description": "Diferentes formas de un verbo"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción",
+    "description": "Establecen relaciones entre palabras y oraciones. Conectan cosas dentro de la oración."
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción adversativa",
+    "description": "Sentido adverso.\n- Sino\n- Aunque\n> No estudia, sino que trabaja.\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción causal",
+    "description": "Expresan causa\n- Porque\n- como\n- dado que\n- ya que\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción concesiva",
+    "description": "Oposición, restricción.\n- Aunque\n- Si bien\n- así \n- a pesar de\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción condicional",
+    "description": "Condición o necesidad de verificar una circunstancia.\n- Si\n- En el caso de que\n- Siempre que.\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción consecutiva",
+    "description": "Introduce una oración que es consecuencia de algo\n- Así que\n- Por tanto\n- Pues\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción coordinante",
+    "description": "Une elementos que no dependen entre sí (ej: oraciones coordinadas).\n- Y\n- Ni\n- Pero\n- Sino\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "Conjunción copulativa",
+    "description": "Suma o adición.\n- y\n- e\n- ni\n"
+  },
+  {
+    "type": "Términos Gramaticales",
+    "name": "",
     "description": ""
   },
   {
     "type": "Términos Gramaticales",
-    "name": "A",
+    "name": "",
     "description": ""
   },
   {
     "type": "Términos Gramaticales",
-    "name": "A",
+    "name": "",
     "description": ""
   },
   {
     "type": "Términos Gramaticales",
-    "name": "A",
+    "name": "",
     "description": ""
   },
   {
     "type": "Términos Gramaticales",
-    "name": "A",
+    "name": "",
     "description": ""
   },
   {
-    "name": "Pronombre",
-    "description": "Example",
-    "type": "Sustantivos"
+    "type": "Términos Gramaticales",
+    "name": "",
+    "description": ""
   },
   {
-    "name": "Pronombre",
-    "description": "Example",
-    "type": "Sustantivos"
+    "type": "Términos Gramaticales",
+    "name": "",
+    "description": ""
   },
   {
-    "name": "Pronombre",
-    "description": "Example",
-    "type": "Sustantivos"
-  },
-  {
-    "name": "Pronombre",
-    "description": "Example",
-    "type": "Sustantivos"
+    "type": "Términos Gramaticales",
+    "name": "",
+    "description": ""
   }
 ]

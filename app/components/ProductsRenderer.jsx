@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import LazyLoad from 'react-lazy-load';
 import ListItem from "./ListItem/ListItem";
 import {filterItems} from "./ProductFilter/FilterItems";
 import {useProductFilter} from "./ProductFilter/FilterContext";
@@ -21,18 +22,20 @@ const ProductsRenderer = (props) => {
 
 
     return (
-        <div className="grid grid-cols-4 justify-between gap-8 mt-8">
-            {filteredProducts.map((item, index) => (
-                <ListItem
-                    key={index}
-                    title={item.name}
-                    itemIndex={index + 1}
-                    // imageURL={item.imageURL}
-                    type={item.type}
-                    description={item.description}
-                />
-            ))}
-        </div>
+        <LazyLoad height={762}>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between gap-8 mt-8">
+                {filteredProducts.map((item, index) => (
+                    <ListItem
+                        key={index}
+                        title={item.name}
+                        itemIndex={index + 1}
+                        // imageURL={item.imageURL}
+                        type={item.type}
+                        description={item.description}
+                    />
+                ))}
+            </div>
+        </LazyLoad>
     );
 };
 

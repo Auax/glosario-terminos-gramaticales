@@ -26,7 +26,7 @@ const Filter = () => {
     };
 
     return (
-        <div className="grid grid-flow-col gap-4 bg-blue-50 p-5 rounded-md mt-4">
+        <div className="grid sm:grid-flow-col gap-4 bg-blue-50 p-5 rounded-md mt-4">
             {/*<div className="price-range">*/}
             {/*    <label className="font-bold" htmlFor="priceRangeSlider">Rango</label>*/}
             {/*    <Slider*/}
@@ -51,8 +51,15 @@ const Filter = () => {
             {/*        <span>${indexRange.max}</span>*/}
             {/*    </div>*/}
             {/*</div>*/}
+            <div className="search-product flex flex-col ">
+                <label className="font-bold" htmlFor="searchProduct">Buscar por nombre</label>
+                <input className="py-2 px-4 border border-blue-900/20 rounded-lg"
+                       id="searchProduct"
+                       type="text" placeholder="Adjetivo adverbial"
+                       onChange={handleSearchStringChange}/>
+            </div>
             <div className="product-types flex flex-col">
-                <label className="font-bold" htmlFor="productTypesSelector">Bloque:</label>
+                <label className="font-bold" htmlFor="productTypesSelector">Bloque</label>
                 <select
                     className="py-2 px-4 border border-blue-900/20 rounded-lg h-full"
                     id="productTypesSelector"
@@ -66,12 +73,9 @@ const Filter = () => {
                     ))}
                 </select>
             </div>
-            <div className="search-product flex flex-col">
-                <label className="font-bold" htmlFor="searchProduct">Buscar por nombre:</label>
-                <input className="py-2 px-4 border border-blue-900/20 rounded-lg"
-                       id="searchProduct"
-                       type="text" placeholder="Adjetivo adverbial"
-                       onChange={handleSearchStringChange}/>
+            <div className="random-product flex flex-col">
+                <p className="font-bold">Extra</p>
+                <button className="border border-blue-900/20 rounded-lg h-full hover:bg-blue-100">Buscar término aleatorio</button>
             </div>
         </div>
     );

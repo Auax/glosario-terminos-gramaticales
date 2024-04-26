@@ -63,8 +63,8 @@ const ListItem = (props) => {
                                   blockquote: ({ node, ...rest }) => (
                                       <blockquote style={{ background: "#d0cfcf", borderRadius: 2, marginTop: 10, marginBottom: 10, padding: 3}} {...rest} />
                                   ),
-                                  li: ({ node, ...rest }) => (
-                                      <li className={"list-disc"} {...rest} />
+                                  ul: ({ node, ...rest }) => (
+                                      <ul className={"list-disc"} {...rest} />
                                   ),
                               }}
                     >{props.description}</Markdown>

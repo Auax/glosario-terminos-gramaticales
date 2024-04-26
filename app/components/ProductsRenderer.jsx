@@ -13,17 +13,17 @@ const ProductsRenderer = (props) => {
     // I'm leaving the variable here so if I need it for something, just uncomment the lines in FilterProducts.js.
 
     const {
-        indexRange, setIndexRange,
         itemType, setItemType,
-        searchString, setSearchString
+        searchString, setSearchString,
     } = useProductFilter();
 
-    const filteredProducts = filterItems(props.data, indexRange, itemType, searchString);
+    const filteredProducts = filterItems(props.data, itemType, searchString);
 
 
     return (
         <LazyLoad height={762}>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between gap-8 mt-8">
+            <div
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between gap-8 mt-8 mb-8">
                 {filteredProducts.map((item, index) => (
                     <ListItem
                         key={index}

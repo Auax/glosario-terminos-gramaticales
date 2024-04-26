@@ -4,10 +4,10 @@ import {stringSimilarity} from "string-similarity-js";
 const stringSimilarityThreshold = 0.6;
 
 export const filterItems = (products,
-                            indexRange,
                             itemType,
                             searchString,
 ) => {
+    console.log(searchString);
     // Filtering logic here
     return products.filter((product) => {
         const name = product.name.toLowerCase();
@@ -22,6 +22,6 @@ export const filterItems = (products,
 
 const searchMatch = (searchValue, value) => {
     const isIncluded = value.includes(searchValue);
-    let isSimilar = stringSimilarity(name, searchValue) >= stringSimilarityThreshold;
+    let isSimilar = stringSimilarity(value, searchValue) >= stringSimilarityThreshold;
     return searchValue === "" || isSimilar || isIncluded;
 }

@@ -5,7 +5,7 @@ import {ProductFilterProvider} from "/app/components/ProductFilter/FilterContext
 const inter = Inter({subsets: ['latin']})
 
 export const metadata = {
-    title: 'Glosario de términos gramaticales,
+    title: 'GTG,
     description: 'Creado por Ibai Farina, con los términos de Hector Berger',
 }
 

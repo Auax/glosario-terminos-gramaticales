@@ -3,8 +3,8 @@
 import React from 'react';
 import LazyLoad from 'react-lazy-load';
 import ListItem from "./ListItem/ListItem";
-import {filterItems} from "./ProductFilter/FilterItems";
-import {useProductFilter} from "./ProductFilter/FilterContext";
+import {filterItems} from "./NavbarFilter/FilterItems";
+import {useProductFilter} from "./NavbarFilter/FilterContext";
 
 const ProductsRenderer = (props) => {
 

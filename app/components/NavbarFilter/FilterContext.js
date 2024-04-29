@@ -3,15 +3,15 @@
 import React, {createContext, useContext, useState} from 'react';
 import {ItemTypes} from "app/Product";
 
-// Create the Filter context
+// Create the NavbarFilter context
 export const FilterContext = createContext();
 
-// Create a custom hook to access the Filter context
+// Create a custom hook to access the NavbarFilter context
 export function useProductFilter() {
     return useContext(FilterContext);
 }
 
-// Create the Filter context provider
+// Create the NavbarFilter context provider
 export function ProductFilterProvider({children}) {
     const [itemType, setItemType] = useState('');
     const [searchString, setSearchString] = useState('');

@@ -1,6 +1,6 @@
 import './globals.css'
 import {Inter} from 'next/font/google'
-import {ProductFilterProvider} from "/app/components/ProductFilter/FilterContext";
+import {ProductFilterProvider} from "/app/components/NavbarFilter/FilterContext";
 
 const inter = Inter({subsets: ['latin']})
 
